@@ -10,7 +10,7 @@ const News = () => {
   const { data } = useGetCryptoNewsQuery();
   
     const { data: cryptoNews } = useGetCryptoNewsQuery();
-    if (!data) return <Loader />;
+    if (!data) return <Loader />; 
   
 
   return (

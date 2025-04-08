@@ -3,9 +3,10 @@
     --bgPrimary:#fff;
    --bgSecondary: #F9F9F9;
    --pink: #0071bd;
-   --light-blue: #e6f7ff;
+   --light-blue: hsl(199, 100%, 95%);
    --border: #d9d9d9;
 }
+
 
 * {
     margin: 0;
@@ -24,19 +25,19 @@ a:hover{
 
 .navbar{
     flex: 0.2;
-    background: linear-gradient(90deg, rgba(46, 50, 49, 1) 0%, rgba(28, 36, 66, 1) 54%, rgba(28, 28, 30, 1) 100%);    
+    background-color: white;    
 }
 
 #menu{
-    background-color: #008000;
+    
     width: 288px;
     border-color: #0071bd;
     margin-left: 9px;
     margin-right: 9px;
-    color: #fff;
-    
-    
+    color: #fff;   
 }
+
+
 .main{
     flex: 0.8;
     width: 100%;
@@ -45,14 +46,7 @@ a:hover{
 .routes{
     padding: 20px;
 }
-.nav-container{
-    position: fixed;
-    left: 0;
-    margin: 10px;
-    height: 100vh;
-    margin: 0px;
-    
-}
+
 
 .logo-container{
     
@@ -328,7 +322,7 @@ width: 70%;
 
 .chart-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     gap: 50px;
     color: #0071bd;
 }
@@ -389,3 +383,4 @@ width: 70%;
 #space{
     padding-bottom: 2px;
 }
+
